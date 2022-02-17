@@ -37,10 +37,10 @@ else return "ERROR!!!";
 }
 int main() 
 {
-  cout << "How many lines (MAX 91858)?" << endl;
+  cout << "How many lines (MAX 87362)?" << endl;
   int size;
   cin >> size;//choosing size
-  if(size>91858 || size<1)//check
+  if(size>87362 || size<1)//check
   {
     cout << "Sorry I do not understand"<<endl;
     return 0;
@@ -48,7 +48,7 @@ int main()
   //zmienne
   vector<string> info;
   string a, line;
-  info.reserve(91858);
+  info.reserve(87362);
 	ifstream justfile;
   justfile.open("CRISP_PRJ_C_FY2009.CSV");
 	for(int m=0;m<size;m++)// replacement
